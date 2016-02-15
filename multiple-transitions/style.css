@@ -1,0 +1,82 @@
+nav.main-nav {
+    background: #333;
+    background-image: -webkit-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: -webkit-linear-gradient(liner 0%, 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: -ms-linear-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: -moz-linear-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: -o-linear-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: linear-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    width: 100%;
+}
+
+.top-nav {
+    border-bottom: 2px solid #111;
+    height: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+.top-nav li {
+    background: #333;
+    background-image: -webkit-gradient(liner, 0% 0%, 0% 100%, from(#2f2f2f2), to(#4f4f4f4));
+    background-image: -webkit-linear-gradient(top, #2f2f2f2, #4f4f4f4);
+    background-image: -ms-linear-gradient(top, #2f2f2f2, #4f4f4f4);
+    background-image: -moz-linear-gradient(top, #2f2f2f2, #4f4f4f4);
+    background-image: -o-linear-gradient(top, #2f2f2f2, #4f4f4f4);
+    background-image: linear-gradient(top, #2f2f2f2, #4f4f4f4);
+    border-bottom: 2px solid #111;
+    border-right: 1px solid #555;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    -webkit-transition-property: height;
+    -moz-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+.top-nav li:hover {
+    height: 30px;
+}
+
+.top-nav li a:hover {
+    color: #fff;
+    top: 5px;
+}
+
+.top-nav li a {
+    color: #aaa;
+    padding-top: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 25px;
+    text-decoration: none;
+    -webkit-transition-property: color, top;
+    -o-transition-property: color, top;
+    -moz-transition-property: color, top;
+    transition-property: color, top;
+    -webkit-transition-duration: 0.3s, 0.4s;
+    -o-transition-duration: 0.3s, 0.4s;
+    -moz-transition-duration: 0.3s, 0.4s;
+    transition-duration: 0.3s, 0.4s;
+    -webkit-transition-timing-function: ease, ease-out;
+    -o-transition-timing-function: ease, ease-out;
+    -moz-transition-timing-function: ease, ease-out;
+    transition-timing-function: ease, ease-out;
+}

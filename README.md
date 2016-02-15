@@ -8,3 +8,6 @@
 
 ### timining functions
 * ease, ease-in/-out/in-out and cubic-bezier
+
+### multiple transitions
+* more than one animation to the same object
