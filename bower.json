@@ -1,13 +1,13 @@
 {
-  "name": "css-transitions",
-  "homepage": "https://github.com/pedroramus/css-animations",
+  "name": "css-animations",
+  "description": "",
+  "main": "index.js",
   "authors": [
     "pedroramus <p.i.c.m.ramos@gmail.com>"
   ],
-  "description": "",
-  "main": "",
+  "license": "ISC",
+  "homepage": "https://github.com/pedroramus/css-animations",
   "moduleType": [],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
