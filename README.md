@@ -11,3 +11,6 @@
 
 ### multiple transitions
 * more than one animation to the same object
+
+### transition shorthand
+* Change the multiple transitions code, reducing the number of lines. 
